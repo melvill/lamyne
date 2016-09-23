@@ -1,0 +1,44 @@
+- id: catchline
+  translation: "A Place of Freedom, Experimentation<br> and Citizen Innovation"
+
+- id: space
+  translation: "A place for Work and Prototyping"
+
+- id: space-detail
+  translation: "La M[Y]NE opens the doors of its house and welcomes you to its Serious Space for co-working, the Lab[O] and Atel[I]er for experiments of all kinds without forgetting the garden for your permaculture desires. Find us every Wednesday evening at the OX[Y]GEN sessions."
+
+- id: learning
+  translation: "A peer-to-peer learning approach"
+
+- id: learning-detail
+  translation: "La M[Y]NE offers all a framework for the development of a project by peer-to-peer learning based on research and experimentation. Members of La M[Y]NE can benefit freely from our workshops and masterclasses program."
+
+- id: contribute
+  translation: "Contribute to the project of LA MYNE"
+
+- id: contribute-detail
+  translation: "La M[Y]NE is a co-constructed space and co-managed by the community. Fed by an effort of transparency, we ensure open governance and economic model(s). Support La M[Y]NE project by becoming a member and / or participating in the work groups."
+
+- id: catchline-hero
+  translation: "Citizens of all ages.<br>Experts or not.<br>Organizations of all types.<br><br> La MYNE and its ecosystem offers a program made for all and by all."
+
+- id: CTA-program
+  translation : "Discover our program"
+
+- id: more
+  translation: "More"
+
+- id: ecosystem
+  translation: "La MYNE and its ecosystem"
+
+- id: ecosystem-detail
+  translation: "The finesse of the local, the strength of the global!<br><br> Because the community of La MYNE is based on new forms of partnerships, collaboration and collective intelligence, it is part of a closely interconnected ecosystem."
+
+- id: home-event
+  translation: "Meet us during:"
+
+- id: home-newsletter
+  translation: "Follow our Newsletter"
+
+- id: home-news
+  translation: "Check our last news"

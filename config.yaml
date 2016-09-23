@@ -1,0 +1,151 @@
+
+DefaultContentLanguage: fr
+Languages:
+  en:
+    address: 1 Rue de Croix de Luizet<br> 69100 Villeurbanne
+    info: Open to publicg<br> on wednesdays at 18h00<br> or contact us
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /en/about
+        weight: 0
+      - identifier: program
+        name: Program
+        url: /en/program/
+        weight: 1
+      - identifier: projects
+        name: Projects
+        url: /en/project/
+        weight: 2
+      - identifier: contribute
+        name: Contribute
+        url: /en/contribute/
+        weight: 3
+      - identifier: agenda
+        name: Agenda
+        url: /en/agenda/
+        weight: 4
+    title: Manufacture of Ideas and New Experiments
+    weight: 1
+  fr:
+    address: 1 Rue de Croix de Luizet<br>69100 Villeurbanne
+    info: 'Ouverture au public<br> le Mercredi à partir de 18h<br> ou contactez-nous'
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /about
+        weight: 0
+      - identifier: program
+        name: Programme
+        url: /program/
+        weight: 1
+      - identifier: projects
+        name: Projets
+        url: /project/
+        weight: 2
+      - identifier: contribute
+        name: Contribuer
+        url: /contribute/
+        weight: 3
+      - identifier: agenda
+        name: Agenda
+        url: /agenda/
+        weight: 4
+    title: Manufacture des Idées et Nouvelles Expérimentations
+    weight: 2
+SectionPagesMenu:
+- main
+- citoyen
+baseurl: /
+canonifyurls: true
+config: config.yaml
+MetaDataFormat : yaml
+params:
+  DateForm: Monday, Jan 2
+  banner:
+    sections:
+    - image: /img/project-banner.jpg
+      name: Projects
+    - image: /img/lamyne-banner.jpg
+      name: La MYNE
+    - image: /img/contribute-banner.jpg
+      name: Contributes
+    - image: /img/agenda-banner.jpg
+      name: Agendas
+    - image: /img/program-banner.jpg
+      name: Programs
+  homesubtitle: Tiers-Lieu Open Source
+  hometitle: La MYNE
+  partners:
+  - link: http://lapaillasse.org/
+    logo: /img/paillasse-logo.png
+    name: La Paillasse
+  - link: http://movilab.org/index.php?title=La_POC_Foundation
+    logo: /img/poc-foundation-logo.png
+    name: POC Foundation
+  - link: https://openara.org/
+    logo: /img/open-ara-logo.png
+    name: Open Ara
+  - link: http://www.cellabz.com/
+    logo: /img/cellabz-logo.jpg
+    name: Cellabz
+  - link: http://www.grandlyon.com/
+    logo: /img/grand-lyon-logo.png
+    name: 'Grand Lyon '
+  - link: https://www.insa-lyon.fr/
+    logo: /img/insa-logo.png
+    name: INSA Lyon
+  - link: http://www.fablab-lyon.fr/
+    logo: /img/fol-logo.jpg
+    name: La Fabrique d'Objets Libres
+  - link: https://labolyon.fr/
+    logo: /img/lol-logo.png
+    name: Le Laboratoire Ouvert Lyonnais
+  - link: http://www.ecam.fr/fr/ecam-lyon/ecam-lyon
+    logo: /img/ecam-logo.png
+    name: 'ECAM '
+  - link: http://ouishare.net/fr
+    logo: /img/ouishare-logo.png
+    name: Ouishare
+  - link: http://www.ens-lyon.fr/
+    logo: /img/ens-logo.jpg
+    name: ENS Lyon
+  - link: http://www.tuba-lyon.com/
+    logo: /img/tuba-logo.jpg
+    name: TUBA
+  social:
+  - header: 'yes'
+    icon: icon-twitter
+    title: twitter
+    url: https://twitter.com/https://twitter.com/LaPaillassaone
+  - header: 'yes'
+    icon: icon-github
+    title: github
+    url: https://github.com/lamyne
+  - header: 'yes'
+    icon: icon-facebook
+    title: facebook
+    url: https://www.facebook.com/groups/644546245604963/
+  - icon: icon-linkedin
+    title: linkedin
+    url: https://www.linkedin.com/company/la-myne-by-lps-
+  - icon: icon-flickr
+    title: flickr
+    url: https://www.flickr.com/photos/lps_myne/
+  - header: 'yes'
+    icon: icon-slack
+    title: slack
+    url: https://la-myne.slack.com
+  - header: 'yes'
+    icon: icon-mail
+    title: email
+    url: team@lamyne.org
+  - icon: ion-social-youtube-outline
+    title: youtube
+    url: https://www.youtube.com/channel/UC-AkSeIOQf3-fscKmoXfmxA
+taxonomies:
+  categorie: categories
+  project: projects
+  tag: tags

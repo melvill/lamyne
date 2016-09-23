@@ -1,0 +1,171 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<section id="index-banner">
+  <div class="parallax-container">
+    <div class=" hero-catchline">
+        <h1 class="center">{{ .Site.Params.hometitle }}
+            <br>{{ .Site.Params.homesubtitle }}</h1>
+        <div class="row center">
+            <h2 class="col s12 center "> {{ i18n "catchline" . | markdownify}} </h5>
+          </div>
+
+    </div>
+    <div class="parallax"><img class="responsive-img" src="/img/hackuaponie.jpg" alt="La MYNE"></div>
+  </div>
+</section>
+
+
+<section id="section-offer">
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="row center">
+            <img src="/img/picto-house.png">
+            </div>
+
+            <h3 class="center"><a href="/program#accompagnement">{{ i18n "space" . | markdownify }}</a></h5>
+
+            <p class="light">{{ i18n "space-detail" . | markdownify }}</p>
+
+        </div>
+
+        <div class="col s12 m4">
+          <div class="row center">
+            <img class="center" src="/img/picto-experiment.png">
+          </div>
+
+            <h3 class="center"><a href="/program">{{ i18n "learning" . | markdownify }}</a></h5>
+
+            <p class="light">{{ i18n "learning-detail" . | markdownify }}</p>
+
+        </div>
+
+        <div class="col s12 m4">
+            <div class="row center">
+            <img src="{{ .Site.BaseURL }}img/picto-fork.png">
+            </div>
+
+            <h3 class="center"><a href="/contribute">{{ i18n "contribute" . | markdownify }}</a></h5>
+
+            <p class="light">{{ i18n "contribute-detail" . | markdownify }}</p>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <div class="parallax-container valign-wrapper home-hero">
+          <div class="row center">
+          <div class="col s8 offset-s2">
+          <p>{{ i18n "catchline-hero" . | markdownify }}</p>
+        <div class="row">
+          <a href="/program" class="btn-large waves-effect waves-light orange">{{ i18n "CTA-program" . | markdownify }}</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax"><img src="/img/background2.jpg" alt="La MYNE, un espace pour tous"></div>
+  </div>
+
+<section id="section-events">
+  <div class="container">
+    <div class="section">
+            <div class="row">
+              <div class="col s12 center">
+                <h2>{{ i18n "home-event" . | markdownify }}</h2>
+              </div>
+            </div>
+            <div class="row">
+              {{ range where .Data.Pages ".Params.section" "agenda" }}
+              {{ if eq .Params.featured "yes" }}
+              <div class="col s12 m4">
+                  <div class ="center"><img class="thumb" src="{{ .Params.logo }}"></div>
+                  <h3 class="center">{{ .Title }}</h3>
+                  <p class="light"> {{ .Params.description }}</p>
+              </div>
+              {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section id="section-newsletter" class="row">
+        <div class="col s12 center">
+          <h2>{{ i18n "home-newsletter" . | markdownify }}</h2>
+        </div>
+
+        <div class="row">
+   <form class="col s6 offset-s3">
+     <div class="row">
+       <div class="input-field">
+         <input id="email" type="email" class="validate">
+         <label for="email">Email</label>
+       </div>
+     </div>
+   </form>
+ </div>
+
+</section>
+
+<section id="section-actus">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+        <h2>{{ i18n "home-news" . | markdownify }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range where .Data.Pages ".Params.home" "yes" }}
+      <div class="col s12 m4">
+        <div class="card card-medium">
+          <div class="card-image">
+            <img src="{{ .Params.thumbnail }}">
+          </div>
+          <div class="card-content">
+            <div class="kind">{{ .Params.theme }}</div>
+            <div class="card-agenda-title">{{ .Title }}</div>
+            <div class="row card-details">
+              <p>{{ .Description }} </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="parallax-container valign-wrapper">
+      <div class="container">
+        <div class="row center">
+          <div class="col s8 offset-s2">
+          <p>{{ i18n "ecosystem-detail" . | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="{{ .Site.BaseURL }}img/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+</section>
+
+<section class="partenaires">
+  <div class="container center">
+    <div class ="row">
+<h2>{{ i18n "ecosystem" . | markdownify }}</h2>
+</div>
+<div class="row">
+  {{ range .Site.Params.partners }}
+  <div class="col s4"><a href="{{ .link }}"><img class="responsive-img" src="{{ .logo }}"></a></div>
+{{ end }}
+</section>
+</div>
+{{ partial "footer.html" . }}
+{{ partial "foot.html" }}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{{ "<!--[if lt IE 7]>" | safeHTML }} <html class="no-js lt-ie9 lt-ie8 lt-ie7"> {{ "<![endif]-->" | safeHTML }}
+{{ "<!--[if IE 7]>" | safeHTML }} <html class="no-js lt-ie9 lt-ie8"> {{ "<![endif]-->" | safeHTML }}
+{{ "<!--[if IE 8]>" | safeHTML }} <html class="no-js lt-ie9"> {{ "<![endif]-->" | safeHTML }}
+{{ "<!--[if gt IE 8]><!-->" | safeHTML }} <html class="no-js"> {{ "<!--<![endif]-->" | safeHTML }}
+
+<head>
+  <meta  charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="La MYNE Tiers-Lieu Open Source accompagne les projets d'innovations citoyennes" />
+  <title>{{ .Site.Title }}</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/myne-site-icons-codes.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/myne-site-icons.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="http://localhost:1313/js/modernizr.js"></script>
+</head>

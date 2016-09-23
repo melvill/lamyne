@@ -1,0 +1,44 @@
+- id: catchline
+  translation: "Un espace de Liberté, Expérimentations<br> et Innovation Citoyenne"
+
+- id: space
+  translation: "Un espace de travail et de prototypage"
+
+- id: space-detail
+  translation: "La MYNE ouvre les portes de sa maison et vous accueille dans son Serious Space pour co-worker, son Lab[O] et Atel[I]er pour des expérimentations en tout genre sans oublier le Jardin pour vos envies permacoles. Retrouvez-nous les mercredi soir lors des sessions OX[Y]GEN."
+
+- id: learning
+  translation: "Un Apprentissage de pair-à-pair"
+
+- id: learning-detail
+  translation: "La MYNE offre à tous un cadre pour le développement de projet par un apprentissage de pair-à-pair basé sur la recherche et l'expérimentation. Les membres de la M[Y]NE peuvent bénéficier librement de notre programme d'ateliers et masterclasses."
+
+- id: contribute
+  translation: "Contribuer au projet de la MYNE"
+
+- id: contribute-detail
+  translation: "La M[Y]NE est un espace co-construit et co-géré par sa communauté. Nourris par un effort de transparence, nous veillons à ouvrir la gouvernance et le(s) modèle(s) économique(s). Soutenez le projet de la M[Y]NE en devenant membre et/ou en participant aux groupes de travail."
+
+- id: catchline-hero
+  translation: "Citoyens de tous âges.<br>Experts ou non.<br>Organisations de tous types.<br><br>La MYNE et son écosystème vous proposent un programme fait pour tous et par tous."
+
+- id: CTA-program
+  translation : "Découvrez notre programme"
+
+- id: more
+  translation: "En savoir plus"
+
+- id: ecosystem
+  translation: "La MYNE et son écosytème"
+
+- id: ecosystem-detail
+  translation: "La finesse du local, la force du global !<br><br> Parce que la communauté de la MYNE repose sur de nouveaux modes de partenariat, de collaboration et d’intelligence collective, elle s’inscrit dans un écosystème interconnecté et soudé."
+
+- id: home-event
+  translation: "Retrouvez-nous:"
+
+- id: home-newsletter
+  translation: "Suivez note Newsletter"
+
+- id: home-news
+  translation: "Dernières Actualités"
