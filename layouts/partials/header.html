@@ -1,4 +1,4 @@
-<html>
+
 <body>
   <nav class="light-grey">
     <div class="nav-wrapper container">
@@ -17,13 +17,13 @@
         {{ range .Site.Params.menu.main }}
         <li><a href="{{ .url }}">{{ .name }}</a></li>
         {{end}}
-        <span class="social-icons">
+        
           {{ range .Site.Params.social}}
           {{ if .header }}
-          <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+          <li class="social-icons" ><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
           {{ end }}
           {{ end }}
-      </span>
+      
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
